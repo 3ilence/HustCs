@@ -1,0 +1,10 @@
+        int shmid = shmget(key, 200, IPC_CREAT | 0666);
+        /*
+        * @description: 得到一个共享内存标识符或创建一个共享内存对象
+        * @param key:绑定的键值
+        * @param size:内存的大小
+        * @param IPC_CREAT | 0666
+        * @return: 返回共享内存的标识符/-1
+        */
+	key = ftok(".", id);
+	函数ftok把一个已存在的路径名和一个整数标识符转换成一个key_t值，称为IPC键值（也称IPC key键值）
