@@ -1,0 +1,19 @@
+docId-----docPath mapping
+0	---->	D:\code\Java\SearchEngineForStudent\text\text\1.txt
+1	---->	D:\code\Java\SearchEngineForStudent\text\text\2.txt
+2	---->	D:\code\Java\SearchEngineForStudent\text\text\3.txt
+3	---->	D:\code\Java\SearchEngineForStudent\text\text\4.txt
+PostingList: 
+activity	---->	{docId: 0, freq: 3, positions: [0, 1, 6]} -> {docId: 1, freq: 1, positions: [0]} -> {docId: 3, freq: 7, positions: [0, 1, 6, 17, 18, 19, 20]}
+benefits	---->	{docId: 0, freq: 2, positions: [2, 7]} -> {docId: 1, freq: 1, positions: [10]} -> {docId: 3, freq: 2, positions: [2, 7]}
+capital	---->	{docId: 0, freq: 2, positions: [3, 8]} -> {docId: 1, freq: 1, positions: [7]} -> {docId: 3, freq: 2, positions: [3, 8]}
+destination	---->	{docId: 0, freq: 2, positions: [4, 9]} -> {docId: 1, freq: 1, positions: [1]} -> {docId: 3, freq: 2, positions: [4, 9]}
+emergency	---->	{docId: 0, freq: 1, positions: [10]} -> {docId: 1, freq: 1, positions: [2]} -> {docId: 3, freq: 1, positions: [10]}
+fizzy	---->	{docId: 0, freq: 1, positions: [5]} -> {docId: 3, freq: 1, positions: [5]}
+frozen	---->	{docId: 1, freq: 2, positions: [9, 14]}
+google	---->	{docId: 1, freq: 2, positions: [11, 15]} -> {docId: 3, freq: 3, positions: [21, 22, 23]}
+marketplace	---->	{docId: 2, freq: 1, positions: [0]}
+medical	---->	{docId: 2, freq: 1, positions: [1]}
+notification	---->	{docId: 2, freq: 1, positions: [3]}
+peninsula	---->	{docId: 2, freq: 1, positions: [5]}
+pollution	---->	{docId: 2, freq: 1, positions: [7]}

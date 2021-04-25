@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hust.cs.javacourse.search.parse</OriginalElement>
+  <nodes>
+    <node x="272.25" y="314.0">hust.cs.javacourse.search.parse.impl</node>
+    <node x="218.75" y="0.0">hust.cs.javacourse.search.parse.AbstractTermTupleStream</node>
+    <node x="0.0" y="132.0">hust.cs.javacourse.search.parse.AbstractTermTupleScanner</node>
+    <node x="325.0" y="144.0">hust.cs.javacourse.search.parse.AbstractTermTupleFilter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hust.cs.javacourse.search.parse.AbstractTermTupleScanner" target="hust.cs.javacourse.search.parse.AbstractTermTupleStream">
+      <point x="0.0" y="-66.0" />
+      <point x="152.5" y="107.0" />
+      <point x="272.5" y="107.0" />
+      <point x="-53.75" y="41.0" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.parse.impl" target="hust.cs.javacourse.search.parse.AbstractTermTupleFilter">
+      <point x="27.0" y="-16.0" />
+      <point x="353.25" y="289.0" />
+      <point x="500.0" y="289.0" />
+      <point x="0.0" y="54.0" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.parse.AbstractTermTupleFilter" target="hust.cs.javacourse.search.parse.AbstractTermTupleStream">
+      <point x="0.0" y="-54.0" />
+      <point x="500.0" y="107.0" />
+      <point x="380.0" y="107.0" />
+      <point x="53.75" y="41.0" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.parse.impl" target="hust.cs.javacourse.search.parse.AbstractTermTupleScanner">
+      <point x="-27.0" y="-16.0" />
+      <point x="299.25" y="289.0" />
+      <point x="152.5" y="289.0" />
+      <point x="0.0" y="66.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="337.5" y="173.0" />
+  <SelectedNodes>
+    <node>hust.cs.javacourse.search.parse.AbstractTermTupleFilter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

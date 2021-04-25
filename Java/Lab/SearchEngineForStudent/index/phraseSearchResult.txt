@@ -1,0 +1,39 @@
+查找短语: activity activity
+
+---------------------------------------------------------
+
+docId:  3
+
+docPath:  D:\code\Java\SearchEngineForStudent\text\text\4.txt
+
+content: 
+\*activity activity benefits capital  destination
+
+
+fizzy activity benefits capital destination emergency
+
+2005 12-31 F16 the from  Pseudopseudohypoparathyroidism
+activity activity activity activity
+google google google*\
+
+score:  4.0
+
+activity activity	---->	{docId: 3, freq: 4, positions: [0, 17, 18, 19]}
+
+---------------------------------------------------------
+
+docId:  0
+
+docPath:  D:\code\Java\SearchEngineForStudent\text\text\1.txt
+
+content: 
+\*activity activity benefits capital  destination
+
+
+fizzy activity benefits capital destination emergency
+
+2005 12-31 F16 the from  Pseudopseudohypoparathyroidism*\
+
+score:  1.0
+
+activity activity	---->	{docId: 0, freq: 1, positions: [0]}

@@ -1,0 +1,58 @@
+*************查找结果如下******************
+************查找单词：activity
+
+---------------------------------------------------------
+
+docId:  3
+
+docPath:  D:\code\Java\SearchEngineForStudent\text\text\4.txt
+
+content: 
+\*activity activity benefits capital  destination
+
+
+fizzy activity benefits capital destination emergency
+
+2005 12-31 F16 the from  Pseudopseudohypoparathyroidism
+activity activity activity activity
+google google google*\
+
+score:  7.0
+
+activity	---->	{docId: 3, freq: 7, positions: [0, 1, 6, 17, 18, 19, 20]}
+
+---------------------------------------------------------
+
+docId:  0
+
+docPath:  D:\code\Java\SearchEngineForStudent\text\text\1.txt
+
+content: 
+\*activity activity benefits capital  destination
+
+
+fizzy activity benefits capital destination emergency
+
+2005 12-31 F16 the from  Pseudopseudohypoparathyroidism*\
+
+score:  3.0
+
+activity	---->	{docId: 0, freq: 3, positions: [0, 1, 6]}
+
+---------------------------------------------------------
+
+docId:  1
+
+docPath:  D:\code\Java\SearchEngineForStudent\text\text\2.txt
+
+content: 
+\*activity   destination emergency
+26%  U571 because hence capital i 
+
+frozen benefits google hahahahahahahahahahahahah ha frozen google*\
+
+score:  1.0
+
+activity	---->	{docId: 1, freq: 1, positions: [0]}
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hust.cs.javacourse.search.util</OriginalElement>
+  <nodes>
+    <node x="0.0" y="271.0">hust.cs.javacourse.search.util.StringSplitter</node>
+    <node x="0.0" y="520.0">hust.cs.javacourse.search.util.StopWords</node>
+    <node x="0.0" y="0.0">hust.cs.javacourse.search.util.Config</node>
+    <node x="280.0" y="271.0">hust.cs.javacourse.search.util.FileUtil</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.6906354515050167" x="251.5" y="289.0" />
+  <SelectedNodes>
+    <node>hust.cs.javacourse.search.util.StringSplitter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
