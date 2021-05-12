@@ -1,3 +1,7 @@
+Experiment1Test是测试程序，运行测试脚本即可得到测试结果，具体测试结果可以到output目录下的index.html里查看，
+详见目录里的说明文件
+
+
 实验项目文件夹SearchEngineForStudent下目录说明：
 
 index目录下有四个文件，分别为index.dat，index.txt，searchResult.txt，phraseSearchResult.txt。
