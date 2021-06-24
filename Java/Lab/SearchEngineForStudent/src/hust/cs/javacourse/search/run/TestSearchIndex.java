@@ -18,7 +18,8 @@ import java.util.Scanner;
  */
 public class TestSearchIndex {
     /**
-     *  搜索程序入口
+     * 搜索程序入口
+     *
      * @param args ：命令行参数
      */
     /*public static void main(String[] args) throws IOException {
@@ -51,7 +52,6 @@ public class TestSearchIndex {
         }
         writer.close();
     }*/
-
     public static void main(String[] args) throws IOException {
         AbstractIndexSearcher indexSearcher = new IndexSearcher();
         indexSearcher.open(Config.INDEX_DIR + "index.dat");
@@ -68,27 +68,27 @@ public class TestSearchIndex {
         String input;
         String sel;
         AbstractHit[] res;
-        while(in.hasNext()) {
+        while (in.hasNext()) {
             input = in.nextLine();
-            if(input.equals("1")) {
+            if (input.equals("1")) {
                 System.out.println("\t请输入想要查找的单词：");
                 input = in.nextLine();
                 writer.write("************查找单词：" + input + "\n");
                 res = indexSearcher.search(new Term(input), sorter);
-                if(res.length == 0) {
+                if (res.length == 0) {
                     writer.write("未查找成功" + "\n");
                     System.out.println("未查找成功");
                 }
                 for (AbstractHit hit : res) {
                     System.out.println(hit.toString());
-                    writer.write(hit.toString() );
+                    writer.write(hit.toString());
                 }
-            } else if(input.equals("2") ) {
+            } else if (input.equals("2")) {
                 System.out.println("\t请输入你想查找的两个单词，单词之间用空格隔开：");
                 input = in.nextLine();
                 writer.write("************查找单词：" + input + "\n");
                 String[] words = input.split(" ");
-                if(words.length != 2) {
+                if (words.length != 2) {
                     System.out.println("输入格式错误");
                     System.out.println("如果还想继续查询的话请输入1或2或3");
                     writer.write("输入异常\n");
@@ -100,7 +100,7 @@ public class TestSearchIndex {
                 if (sel.equals("AND")) {
                     res = indexSearcher.search(new Term(words[0]),
                             new Term(words[1]), sorter, AbstractIndexSearcher.LogicalCombination.AND);
-                } else if(sel.equals("OR")) {
+                } else if (sel.equals("OR")) {
                     res = indexSearcher.search(new Term(words[0]),
                             new Term(words[1]), sorter, AbstractIndexSearcher.LogicalCombination.OR);
                 } else {
@@ -109,7 +109,7 @@ public class TestSearchIndex {
                     writer.write("输入异常\n");
                     continue;
                 }
-                if(res.length == 0) {
+                if (res.length == 0) {
                     writer.write("未查找成功\n");
                     System.out.println("未查找成功");
                 }
@@ -117,7 +117,7 @@ public class TestSearchIndex {
                     System.out.println(hit.toString());
                     writer.write(hit.toString());
                 }
-            } else if (input.equals("3")){
+            } else if (input.equals("3")) {
                 break;
             } else {
                 System.out.print("输入格式错误");

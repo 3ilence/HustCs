@@ -13,16 +13,15 @@ TEST_SUITE_CLASSPATH=./test
 
 #将运行TestNG的依赖Jar包放进CLASSPATH
 DEP_JAR=
-for jarfile in $(find $LIB_DIR | grep '\.jar$')
-do
-	if [ ! -n "$DEP_JAR" ];then
-		DEP_JAR=$jarfile
-	else
-		DEP_JAR=$DEP_JAR:$jarfile
-	fi
+for jarfile in $(find $LIB_DIR | grep '\.jar$'); do
+  if [ ! -n "$DEP_JAR" ]; then
+    DEP_JAR=$jarfile
+  else
+    DEP_JAR=$DEP_JAR:$jarfile
+  fi
 done
 CLASSPATH=$CLASSPATH:$TO_BE_TEST_CLASSPAH:$TEST_SUITE_CLASSPATH:$DEP_JAR
 export JAVA_HOME
 export CLASSPATH
 
-java  org.testng.TestNG testng.xml -d test-output
+java org.testng.TestNG testng.xml -d test-output

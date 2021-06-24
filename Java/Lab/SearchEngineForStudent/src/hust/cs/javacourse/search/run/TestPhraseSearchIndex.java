@@ -34,15 +34,15 @@ public class TestPhraseSearchIndex {
         AbstractHit[] res;
         input = in.nextLine();
         String[] words = input.split(" ");
-        if(words.length != 2) {
+        if (words.length != 2) {
             System.out.println("请输入正确格式的短语！");
             return;
         }
         writer.write("查找短语: " + words[0] + " " + words[1] + "\n");
         //必须把res的类型设定为IndexSearcher，因为我不能修改AbstractIndexSearcher
         //所以phraseSearcher方法只在实现类里有
-        res = indexSearcher.phraseSearch(new Term(words[0] ), new Term(words[1]), sorter);
-        if(res.length == 0) {
+        res = indexSearcher.phraseSearch(new Term(words[0]), new Term(words[1]), sorter);
+        if (res.length == 0) {
             System.out.println("未查找到符合条件的短语！");
             writer.write("未查找成功\n");
         }

@@ -61,7 +61,7 @@ public class Index extends AbstractIndex {
                 List<Integer> positions = new ArrayList<>();
                 positions.add(termTuple.curPos);
                 posting.setPositions(positions);
-                termToPostingListMapping.put(termTuple.term,  new PostingList());
+                termToPostingListMapping.put(termTuple.term, new PostingList());
                 termToPostingListMapping.get(termTuple.term).add(posting);
             } else {
                 boolean flag = false;
@@ -74,7 +74,7 @@ public class Index extends AbstractIndex {
                     }
                 }
                 //flag == false说明termTuple.term映射得到的List中不包含该document.getdocId()那一项
-                if (flag ==false) {
+                if (flag == false) {
                     Posting posting = new Posting();
                     posting.setDocId(document.getDocId());
                     posting.setFreq(termTuple.freq);

@@ -16,7 +16,7 @@
                 </methods>
             </class>
         </classes>
-    </test> 
+    </test>
     <test verbose="2" preserve-order="true"
           name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/TermTupleTest.java">
         <classes>

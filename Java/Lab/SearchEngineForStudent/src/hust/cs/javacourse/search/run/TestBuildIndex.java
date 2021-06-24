@@ -19,10 +19,11 @@ import java.io.IOException;
  */
 public class TestBuildIndex {
     /**
-     *  索引构建程序入口
+     * 索引构建程序入口
+     *
      * @param args : 命令行参数
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
         AbstractDocumentBuilder documentBuilder = new DocumentBuilder();
         AbstractIndexBuilder indexBuilder = new IndexBuilder(documentBuilder);
         AbstractIndex index = null;
