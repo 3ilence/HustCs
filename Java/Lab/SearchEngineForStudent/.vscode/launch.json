@@ -1,0 +1,56 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "hust.cs.javacourse.search.run.Test",
+            "projectName": "SearchEngineForStudent_a47ecd9c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBuildIndex",
+            "request": "launch",
+            "mainClass": "hust.cs.javacourse.search.run.TestBuildIndex",
+            "projectName": "SearchEngineForStudent_a47ecd9c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPhraseSearchIndex",
+            "request": "launch",
+            "mainClass": "hust.cs.javacourse.search.run.TestPhraseSearchIndex",
+            "projectName": "SearchEngineForStudent_a47ecd9c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSearchIndex",
+            "request": "launch",
+            "mainClass": "hust.cs.javacourse.search.run.TestSearchIndex",
+            "projectName": "SearchEngineForStudent_a47ecd9c"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileUtil",
+            "request": "launch",
+            "mainClass": "hust.cs.javacourse.search.util.FileUtil",
+            "projectName": "SearchEngineForStudent_a47ecd9c"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringSplitter",
+            "request": "launch",
+            "mainClass": "hust.cs.javacourse.search.util.StringSplitter",
+            "projectName": "SearchEngineForStudent_a47ecd9c"
+        }
+    ]
+}
